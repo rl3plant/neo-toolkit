@@ -1,0 +1,108 @@
+{
+  "bank_files": [
+    "out/background_bank.npz",
+    "out/yolo_background_bank.npz"
+  ],
+  "channel_p": 0.2,
+  "epochs": 400,
+  "lr": 0.00137,
+  "seed": 0,
+  "oracle": {
+    "single_wer": 0.22781525552272797,
+    "single_ber": 0.07182148098945618,
+    "group_wer": 0.0,
+    "group_ber": 0.0
+  },
+  "runs": {
+    "supervised/brute_force": {
+      "objective": "supervised",
+      "circuit": "brute_force",
+      "final": {
+        "single_wer": 0.4940321743488312,
+        "single_ber": 0.16253243386745453,
+        "group_wer": 0.0390625,
+        "group_ber": 0.01328125037252903
+      },
+      "best_epoch": 40,
+      "best": {
+        "single_wer": 0.5267254710197449,
+        "single_ber": 0.17669953405857086,
+        "group_wer": 0.0234375,
+        "group_ber": 0.0078125
+      },
+      "train_seconds": 160.82728004455566
+    },
+    "neurosymbolic/brute_force": {
+      "objective": "neurosymbolic",
+      "circuit": "brute_force",
+      "final": {
+        "single_wer": 0.5064867734909058,
+        "single_ber": 0.17208094894886017,
+        "group_wer": 0.0,
+        "group_ber": 0.0
+      },
+      "best_epoch": 124,
+      "best": {
+        "single_wer": 0.525687575340271,
+        "single_ber": 0.17996886372566223,
+        "group_wer": 0.0,
+        "group_ber": 0.0
+      },
+      "train_seconds": 160.67491579055786
+    },
+    "neurosymbolic/trellis": {
+      "objective": "neurosymbolic",
+      "circuit": "trellis",
+      "final": {
+        "single_wer": 0.5407369136810303,
+        "single_ber": 0.18609237670898438,
+        "group_wer": 0.0,
+        "group_ber": 0.0
+      },
+      "best_epoch": 124,
+      "best": {
+        "single_wer": 0.5018162727355957,
+        "single_ber": 0.17130254209041595,
+        "group_wer": 0.0,
+        "group_ber": 0.0
+      },
+      "train_seconds": 178.30785202980042
+    },
+    "hybrid/brute_force": {
+      "objective": "hybrid",
+      "circuit": "brute_force",
+      "final": {
+        "single_wer": 0.4665282964706421,
+        "single_ber": 0.15443694591522217,
+        "group_wer": 0.0078125,
+        "group_ber": 0.0023437500931322575
+      },
+      "best_epoch": 127,
+      "best": {
+        "single_wer": 0.5096004009246826,
+        "single_ber": 0.16974571347236633,
+        "group_wer": 0.0,
+        "group_ber": 0.0
+      },
+      "train_seconds": 152.30244421958923
+    },
+    "hybrid/trellis": {
+      "objective": "hybrid",
+      "circuit": "trellis",
+      "final": {
+        "single_wer": 0.4701608717441559,
+        "single_ber": 0.15386611223220825,
+        "group_wer": 0.0,
+        "group_ber": 0.0
+      },
+      "best_epoch": 288,
+      "best": {
+        "single_wer": 0.46600934863090515,
+        "single_ber": 0.15220549702644348,
+        "group_wer": 0.0,
+        "group_ber": 0.0
+      },
+      "train_seconds": 175.4073326587677
+    }
+  }
+}

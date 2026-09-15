@@ -1,0 +1,504 @@
+{
+  "n_trials": 25,
+  "n_validation_images": 11,
+  "category_dirs": [
+    "../neo_project/Data/osif shape rectangles",
+    "../neo_project/Data/final design rectangle Monometric Strepttavidin",
+    "../neo_project/Data/final design - rectangle + streptavidin",
+    "../neo_project/Data/rectangle+IgG-mica-dry-Bruker"
+  ],
+  "elapsed_seconds": 3290.7848839759827,
+  "best_value_f1": 0.8725445408862494,
+  "best_params": {
+    "morph_kernel": 5,
+    "merge_area_ratio": 1.3663721347605744,
+    "dense_grid_n": 5,
+    "area_ratio_min": 0.6174393233826201,
+    "area_ratio_max": 1.4934037238502085,
+    "nms_iou": 0.06539837506489685
+  },
+  "best_trial_attrs": {
+    "precision": 0.9665991902834008,
+    "recall": 0.7951706910907577,
+    "mean_iou": 0.835160446908887,
+    "n_predicted": 988,
+    "n_ground_truth": 1201
+  },
+  "trials": [
+    {
+      "number": 0,
+      "value": 0.81785392245266,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 2.487340859470355,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.4724415914984484,
+        "area_ratio_max": 2.020213158876138,
+        "nms_iou": 0.34065235087999524
+      },
+      "user_attrs": {
+        "precision": 0.8918387413962635,
+        "recall": 0.7552039966694422,
+        "mean_iou": 0.8350800835810791,
+        "n_predicted": 1017,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 1,
+      "value": 0.6572085889570553,
+      "params": {
+        "morph_kernel": 3,
+        "merge_area_ratio": 2.8051914014077433,
+        "dense_grid_n": 6,
+        "area_ratio_min": 0.39172075941288886,
+        "area_ratio_max": 2.64593256474053,
+        "nms_iou": 0.28800271388880705
+      },
+      "user_attrs": {
+        "precision": 0.6090973702914001,
+        "recall": 0.7135720233139051,
+        "mean_iou": 0.8345150410295317,
+        "n_predicted": 1407,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 2,
+      "value": 0.8149840109639105,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 2.8660739489267897,
+        "dense_grid_n": 2,
+        "area_ratio_min": 0.24356464985077037,
+        "area_ratio_max": 1.3343712756485537,
+        "nms_iou": 0.42467893049657207
+      },
+      "user_attrs": {
+        "precision": 0.902834008097166,
+        "recall": 0.742714404662781,
+        "mean_iou": 0.8359067730978729,
+        "n_predicted": 988,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 3,
+      "value": 0.8326493388052896,
+      "params": {
+        "morph_kernel": 7,
+        "merge_area_ratio": 2.7660218668442744,
+        "dense_grid_n": 6,
+        "area_ratio_min": 0.5995792821083618,
+        "area_ratio_max": 2.0845149158299843,
+        "nms_iou": 0.40123812932890496
+      },
+      "user_attrs": {
+        "precision": 0.9203629032258065,
+        "recall": 0.7601998334721066,
+        "mean_iou": 0.8382527970742476,
+        "n_predicted": 992,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 4,
+      "value": 0.7674943566591421,
+      "params": {
+        "morph_kernel": 1,
+        "merge_area_ratio": 2.3518578383895425,
+        "dense_grid_n": 2,
+        "area_ratio_min": 0.6723344585247919,
+        "area_ratio_max": 2.187142146975122,
+        "nms_iou": 0.23659787299573565
+      },
+      "user_attrs": {
+        "precision": 0.8382642998027613,
+        "recall": 0.7077435470441299,
+        "mean_iou": 0.837904051136361,
+        "n_predicted": 1014,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 5,
+      "value": 0.6474999999999999,
+      "params": {
+        "morph_kernel": 3,
+        "merge_area_ratio": 2.59362064098159,
+        "dense_grid_n": 4,
+        "area_ratio_min": 0.4842169744343242,
+        "area_ratio_max": 1.3319426607418037,
+        "nms_iou": 0.3279359736841447
+      },
+      "user_attrs": {
+        "precision": 0.6480400333611342,
+        "recall": 0.6469608659450458,
+        "mean_iou": 0.8397645914856924,
+        "n_predicted": 1199,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 6,
+      "value": 0.8333333333333331,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 2.3104811943745625,
+        "dense_grid_n": 6,
+        "area_ratio_min": 0.5409101495517417,
+        "area_ratio_max": 1.9111634309754364,
+        "nms_iou": 0.2466643792097037
+      },
+      "user_attrs": {
+        "precision": 0.9257375381485249,
+        "recall": 0.7577019150707743,
+        "mean_iou": 0.8346622341574782,
+        "n_predicted": 983,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 7,
+      "value": 0.8704288939051918,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.3084058489326857,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.5353189348090797,
+        "area_ratio_max": 1.6576503538255296,
+        "nms_iou": 0.10801683394468399
+      },
+      "user_attrs": {
+        "precision": 0.9506903353057199,
+        "recall": 0.8026644462947544,
+        "mean_iou": 0.8348474209922366,
+        "n_predicted": 1014,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 8,
+      "value": 0.6325385694249649,
+      "params": {
+        "morph_kernel": 3,
+        "merge_area_ratio": 1.8546793876967207,
+        "dense_grid_n": 4,
+        "area_ratio_min": 0.4193007567311602,
+        "area_ratio_max": 2.980235524700684,
+        "nms_iou": 0.09592016483661264
+      },
+      "user_attrs": {
+        "precision": 0.5463355542095699,
+        "recall": 0.7510407993338885,
+        "mean_iou": 0.835026422229011,
+        "n_predicted": 1651,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 9,
+      "value": 0.5859030837004405,
+      "params": {
+        "morph_kernel": 1,
+        "merge_area_ratio": 1.4903571321929932,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.32664580126989107,
+        "area_ratio_max": 2.0927283138557207,
+        "nms_iou": 0.15999151640072123
+      },
+      "user_attrs": {
+        "precision": 0.47091552857865454,
+        "recall": 0.7751873438800999,
+        "mean_iou": 0.8361914643929848,
+        "n_predicted": 1977,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 10,
+      "value": 0.8518689432395017,
+      "params": {
+        "morph_kernel": 7,
+        "merge_area_ratio": 2.678106560015563,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.48371473164253137,
+        "area_ratio_max": 1.5561856336368234,
+        "nms_iou": 0.09785406443774625
+      },
+      "user_attrs": {
+        "precision": 0.9554865424430642,
+        "recall": 0.768526228143214,
+        "mean_iou": 0.8369978334211922,
+        "n_predicted": 966,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 11,
+      "value": 0.8645161290322582,
+      "params": {
+        "morph_kernel": 7,
+        "merge_area_ratio": 1.293023060724626,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.5577830266280821,
+        "area_ratio_max": 1.5297964654657,
+        "nms_iou": 0.1353637536255682
+      },
+      "user_attrs": {
+        "precision": 0.9680082559339526,
+        "recall": 0.7810158201498751,
+        "mean_iou": 0.8373920865824728,
+        "n_predicted": 969,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 12,
+      "value": 0.8725445408862494,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.3663721347605744,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.6174393233826201,
+        "area_ratio_max": 1.4934037238502085,
+        "nms_iou": 0.06539837506489685
+      },
+      "user_attrs": {
+        "precision": 0.9665991902834008,
+        "recall": 0.7951706910907577,
+        "mean_iou": 0.835160446908887,
+        "n_predicted": 988,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 13,
+      "value": 0.674893945237177,
+      "params": {
+        "morph_kernel": 3,
+        "merge_area_ratio": 1.5562021779965702,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.5540862988098061,
+        "area_ratio_max": 1.5072312639194223,
+        "nms_iou": 0.07649005082524424
+      },
+      "user_attrs": {
+        "precision": 0.6285919540229885,
+        "recall": 0.7285595337218984,
+        "mean_iou": 0.8386884727264221,
+        "n_predicted": 1392,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 14,
+      "value": 0.8661126500461681,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.4174671137043482,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.6963611730140011,
+        "area_ratio_max": 1.3659593536023296,
+        "nms_iou": 0.059981372703525805
+      },
+      "user_attrs": {
+        "precision": 0.9720207253886011,
+        "recall": 0.7810158201498751,
+        "mean_iou": 0.8372060140572539,
+        "n_predicted": 965,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 15,
+      "value": 0.8553402433528617,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.455295540344522,
+        "dense_grid_n": 3,
+        "area_ratio_min": 0.5329860802771658,
+        "area_ratio_max": 1.9351464835013985,
+        "nms_iou": 0.17657997355390603
+      },
+      "user_attrs": {
+        "precision": 0.9322200392927309,
+        "recall": 0.7901748542880933,
+        "mean_iou": 0.8349965203717797,
+        "n_predicted": 1018,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 16,
+      "value": 0.8658047258136423,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.227063690703782,
+        "dense_grid_n": 6,
+        "area_ratio_min": 0.46655162273712847,
+        "area_ratio_max": 1.6176365526923573,
+        "nms_iou": 0.05285102921809626
+      },
+      "user_attrs": {
+        "precision": 0.9318618042226487,
+        "recall": 0.8084929225645295,
+        "mean_iou": 0.834051581132701,
+        "n_predicted": 1042,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 17,
+      "value": 0.8118151500714627,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.8362685383374915,
+        "dense_grid_n": 6,
+        "area_ratio_min": 0.6828179226739592,
+        "area_ratio_max": 1.5284614902334972,
+        "nms_iou": 0.15471497090151343
+      },
+      "user_attrs": {
+        "precision": 0.9487750556792873,
+        "recall": 0.7094088259783514,
+        "mean_iou": 0.833214131360628,
+        "n_predicted": 898,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 18,
+      "value": 0.6805277888844463,
+      "params": {
+        "morph_kernel": 3,
+        "merge_area_ratio": 1.471009722813979,
+        "dense_grid_n": 4,
+        "area_ratio_min": 0.6792529255426936,
+        "area_ratio_max": 1.837295453930687,
+        "nms_iou": 0.1268795792671945
+      },
+      "user_attrs": {
+        "precision": 0.6546153846153846,
+        "recall": 0.7085761865112407,
+        "mean_iou": 0.8407138877417769,
+        "n_predicted": 1300,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 19,
+      "value": 0.8625287356321839,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.8106834597075863,
+        "dense_grid_n": 4,
+        "area_ratio_min": 0.6304590555497243,
+        "area_ratio_max": 1.6362878840424024,
+        "nms_iou": 0.09596600466950153
+      },
+      "user_attrs": {
+        "precision": 0.9630390143737166,
+        "recall": 0.7810158201498751,
+        "mean_iou": 0.8362051191955469,
+        "n_predicted": 974,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 20,
+      "value": 0.8666666666666667,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.6843679628828618,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.4421164458954479,
+        "area_ratio_max": 1.388551368294097,
+        "nms_iou": 0.07747234225108328
+      },
+      "user_attrs": {
+        "precision": 0.9440628066732091,
+        "recall": 0.8009991673605329,
+        "mean_iou": 0.8350245979542177,
+        "n_predicted": 1019,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 21,
+      "value": 0.8629579375848033,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.3879045324364707,
+        "dense_grid_n": 4,
+        "area_ratio_min": 0.45705524598160907,
+        "area_ratio_max": 1.394460030337962,
+        "nms_iou": 0.12894498104893065
+      },
+      "user_attrs": {
+        "precision": 0.9445544554455445,
+        "recall": 0.794338051623647,
+        "mean_iou": 0.8346144148427798,
+        "n_predicted": 1010,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 22,
+      "value": 0.8660351826792962,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.5865493694558261,
+        "dense_grid_n": 6,
+        "area_ratio_min": 0.5263641093763636,
+        "area_ratio_max": 1.5388811307628267,
+        "nms_iou": 0.18228168336128509
+      },
+      "user_attrs": {
+        "precision": 0.9448818897637795,
+        "recall": 0.7993338884263114,
+        "mean_iou": 0.834990601852767,
+        "n_predicted": 1016,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 23,
+      "value": 0.8719121683440073,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.4804873754898937,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.5990865933394626,
+        "area_ratio_max": 1.3131236477437933,
+        "nms_iou": 0.16118236016975404
+      },
+      "user_attrs": {
+        "precision": 0.9675126903553299,
+        "recall": 0.7935054121565362,
+        "mean_iou": 0.8356195261759719,
+        "n_predicted": 985,
+        "n_ground_truth": 1201
+      }
+    },
+    {
+      "number": 24,
+      "value": 0.8647430117222723,
+      "params": {
+        "morph_kernel": 5,
+        "merge_area_ratio": 1.303921888870388,
+        "dense_grid_n": 5,
+        "area_ratio_min": 0.5592575552264342,
+        "area_ratio_max": 1.795691616623774,
+        "nms_iou": 0.08659914426882544
+      },
+      "user_attrs": {
+        "precision": 0.9429695181907571,
+        "recall": 0.7985012489592007,
+        "mean_iou": 0.8351206889318243,
+        "n_predicted": 1017,
+        "n_ground_truth": 1201
+      }
+    }
+  ]
+}

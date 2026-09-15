@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Large model checkpoints: fetched via scripts/download_sam2_checkpoint.py
+checkpoints/
+*.pt
+*.pth
+
+# Generated data: rebuild via scripts/build_background_bank.py rather than
+# committing (large, and it's real AFM crop pixel data).
+out/*.npz
+out/*.out
+out/*.err
+# Results JSON (out/d37_rerun.json) is small and is a real finding, not
+# regeneratable junk -- tracked deliberately, see results/ note in README.
+
+# Small trained artifacts (e.g. the mask classifier) are the exception -
+# commit those explicitly with git add -f if you want them versioned.

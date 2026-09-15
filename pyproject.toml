@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neo-toolkit"
+version = "0.1.0"
+description = "Standalone AFM segmentation and error-correction tools for the NEO DNA-origami data storage project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "opencv-python>=4.9",
+    "torch>=2.2",
+    "sam2",
+    "scikit-learn>=1.4",
+    "pyefd>=1.6",
+    "joblib>=1.3",
+]
+
+[project.optional-dependencies]
+# Raw scanner file formats (.spm, .jpk, .ibw, .mi). Not needed if you already
+# have rendered grayscale images (png/tif/etc).
+afm-formats = [
+    "pySPM>=0.5",
+    "tifffile>=2024.1.30",
+    "igor2>=0.5",
+]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
