@@ -1,0 +1,36 @@
+{
+  "title": "neo-toolkit: AFM Image Segmentation and Error-Correction Decoding for DNA-Origami Data Storage",
+  "description": "AFM image segmentation (SAM2-based instance segmentation of DNA origami in AFM scans) and error-correction decoding (the (20,10) error-correcting code, channel simulation, detector model, and decoding) for the NEO DNA-origami data storage project. Developed as part of NEO (Next Generation Molecular Data Storage), Horizon Europe grant agreement No. 101115317.",
+  "creators": [
+    {
+      "name": "Plantosar, Paul",
+      "affiliation": "Graz University of Technology"
+    },
+    {
+      "name": "Kuric, Muhamed",
+      "affiliation": "Graz University of Technology"
+    },
+    {
+      "name": "Peharz, Robert",
+      "affiliation": "Graz University of Technology"
+    }
+  ],
+  "keywords": [
+    "NEO",
+    "Next Generation Molecular Data Storage",
+    "AFM",
+    "DNA origami",
+    "image segmentation",
+    "error-correcting codes"
+  ],
+  "license": "mit",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0",
+  "grants": [
+    {
+      "id": "10.13039/501100000780::101115317"
+    }
+  ]
+}
